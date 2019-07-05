@@ -1,11 +1,11 @@
-# docker java-resource
+# docker tomcat-resource
 
 ## build
 ```bash
-./build.sh
+docker build -t beyondspider/tomcat-resource:latest .
 ```
 
 ## push
 ```bash
-./push.sh
+docker push beyondspider/tomcat-resource:latest
 ```
